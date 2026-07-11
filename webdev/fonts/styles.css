@@ -1,0 +1,576 @@
+#arial {
+    font-family: Arial;
+  }
+  
+#helvetica {
+    font-family: Helvetica;
+}
+  
+#times {
+    font-family: "Times New Roman";
+}
+  
+#georgia {
+    font-family: Georgia;
+}
+  
+#verdana {
+    font-family: Verdana;
+}
+  
+#tahoma {
+    font-family: Tahoma;
+}
+  
+#trebuchet {
+    font-family: "Trebuchet MS";
+}
+  
+#courier {
+    font-family: "Courier New";
+}
+  
+#lucida-console {
+    font-family: "Lucida Console";
+}
+  
+#lucida-sans {
+    font-family: "Lucida Sans Unicode";
+}
+  
+#palatino {
+    font-family: Palatino;
+}
+  
+#garamond {
+    font-family: Garamond;
+}
+  
+#book-antiqua {
+    font-family: "Book Antiqua";
+}
+  
+#impact {
+    font-family: Impact;
+}
+  
+#comic-sans {
+    font-family: "Comic Sans MS";
+}
+  
+#system-ui {
+    font-family: system-ui;
+}
+  
+#serif {
+    font-family: serif;
+}
+  
+#sans-serif {
+    font-family: sans-serif;
+}
+  
+#monospace {
+    font-family: monospace;
+}
+  
+#cursive {
+    font-family: cursive;
+}
+  
+#fantasy {
+    font-family: fantasy;
+}
+
+#stack1 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+#stack2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#stack3 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+  
+#stack4 {
+    font-family: "Times New Roman", Times, serif;
+}
+  
+#stack5 {
+    font-family: Verdana, Geneva, sans-serif;
+}
+  
+#stack6 {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+  
+#stack7 {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+  
+#stack8 {
+    font-family: "Courier New", Courier, monospace;
+}
+  
+#stack9 {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+  
+#stack10 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+  
+  #stack11 {
+    font-family: Garamond, Baskerville, serif;
+  }
+  
+  #stack12 {
+    font-family: system-ui, sans-serif;
+  }
+  
+  #stack13 {
+    font-family: ui-serif, Georgia, serif;
+  }
+  
+  #stack14 {
+    font-family: ui-sans-serif, Arial, sans-serif;
+  }
+  
+  #stack15 {
+    font-family: ui-monospace, "SFMono-Regular", monospace;
+  }
+  
+  #stack16 {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  #stack17 {
+    font-family: Inter, Arial, sans-serif;
+  }
+  
+  #stack18 {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  #stack19 {
+    font-family: "Open Sans", Arial, sans-serif;
+  }
+  
+  #stack20 {
+    font-family: Lato, Arial, sans-serif;
+  }
+
+  .orbitron {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .yuyu-short {
+    font-family: "Yuyu Short", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .playwrite-id {
+    font-family: "Playwrite ID", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lobster-two-regular {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .caveat {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .shadows-into-light {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  h1{
+    border-bottom: #00398e 6px solid;
+    border-width: 20%;
+    color: #00ff00;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  h2{
+    color: #00398e;
+    border-bottom: #00ff00 6px solid;
+    border-width: 20%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+
+  hr{
+    border: 1px solid gray;
+    width: 80%;
+  }
+
+  @font-face {
+    font-family: "Blades Mister";
+    src: url("ttf-files/Blades-Mister.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Geist Pixel";
+    src: url("ttf-files/GeistPixel.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Great Vibes";
+    src: url("ttf-files/GreatVibes.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Lilita One";
+    src: url("ttf-files/LilitaOne.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montenegro Gothic One";
+    src: url("ttf-files/MontenegrinGothicOne.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Oswald";
+    src: url("ttf-files/Oswald.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Saira Stencil";
+    src: url("ttf-files/SairaStencil.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Workbench";
+    src: url("ttf-files/Workbench.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  /* Applying Fonts */
+  
+  .blades-mister {
+    font-family: "Blades Mister";
+  }
+  
+  .geist-pixel {
+    font-family: "Geist Pixel";
+  }
+  
+  .great-vibes {
+    font-family: "Great Vibes";
+  }
+  
+  .lilita-one {
+    font-family: "Lilita One";
+  }
+  
+  .montenegro-gothic-one {
+    font-family: "Montenegro Gothic One";
+  }
+  
+  .oswald {
+    font-family: "Oswald";
+  }
+  
+  .saira-stencil {
+    font-family: "Saira Stencil";
+  }
+  
+  .workbench {
+    font-family: "Workbench";
+  }
+
+  .orbitron-400 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+  }
+  
+  .orbitron-500 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+  }
+  
+  .orbitron-600 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+  }
+  
+  .orbitron-700 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 700;
+  }
+  
+  .orbitron-800 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+  }
+  
+  .orbitron-900 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+  }
+
+.parent{
+    font-size:20px;
+    border:1px solid gray;
+    padding:15px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Pixels */
+
+.px12{font-size:12px;}
+.px16{font-size:16px;}
+.px24{font-size:24px;}
+.px36{font-size:36px;}
+
+/* Percentage */
+
+.percent50{font-size:50%;}
+.percent100{font-size:100%;}
+.percent150{font-size:150%;}
+.percent200{font-size:200%;}
+
+/* em */
+
+.em05{font-size:0.5em;}
+.em1{font-size:1em;}
+.em15{font-size:1.5em;}
+.em2{font-size:2em;}
+
+/* rem */
+
+.rem1{font-size:1rem;}
+.rem15{font-size:1.5rem;}
+.rem2{font-size:2rem;}
+.rem3{font-size:3rem;}
+
+/* vw */
+
+.vw2{font-size:2vw;}
+.vw4{font-size:4vw;}
+.vw6{font-size:6vw;}
+
+/* vh */
+
+.vh2{font-size:2vh;}
+.vh4{font-size:4vh;}
+
+/* vmin */
+
+.vmin2{font-size:2vmin;}
+.vmin4{font-size:4vmin;}
+
+/* vmax */
+
+.vmax2{font-size:2vmax;}
+.vmax4{font-size:4vmax;}
+
+/* clamp */
+
+.clamp{
+    font-size:clamp(20px,5vw,50px);
+}
+
+/* Keyword sizes */
+
+.xxsmall{font-size:xx-small;}
+.xsmall{font-size:x-small;}
+.small{font-size:small;}
+.medium{font-size:medium;}
+.large{font-size:large;}
+.xlarge{font-size:x-large;}
+.xxlarge{font-size:xx-large;}
+
+/* Relative keywords */
+
+.smaller{
+    font-size:smaller;
+}
+
+.larger{
+    font-size:larger;
+}
+
+h3{
+    text-align:center;
+}
+
+html{
+    font-size:16px;
+    font-family:Arial, sans-serif;
+}
+
+.normal {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.normal {
+    font-variant: normal;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.all-small-caps {
+    font-variant: all-small-caps;
+}
+
+.petite-caps {
+    font-variant: petite-caps;
+}
+
+.all-petite-caps {
+    font-variant: all-petite-caps;
+}
+
+.unicase {
+    font-variant: unicase;
+}
+
+.titling-caps {
+    font-variant: titling-caps;
+}
+
+/* Use a font that supports width variations */
+body {
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.ultra-condensed {
+    font-stretch: ultra-condensed;
+}
+
+.extra-condensed {
+    font-stretch: extra-condensed;
+}
+
+.condensed {
+    font-stretch: condensed;
+}
+
+.semi-condensed {
+    font-stretch: semi-condensed;
+}
+
+.normal {
+    font-stretch: normal;
+}
+
+.semi-expanded {
+    font-stretch: semi-expanded;
+}
+
+.expanded {
+    font-stretch: expanded;
+}
+
+.extra-expanded {
+    font-stretch: extra-expanded;
+}
+
+.ultra-expanded {
+    font-stretch: ultra-expanded;
+}
+
+.stretch50 {
+    font-stretch: 50%;
+}
+
+.stretch75 {
+    font-stretch: 75%;
+}
+
+.stretch100 {
+    font-stretch: 100%;
+}
+
+.normal {
+    letter-spacing: normal;
+}
+
+.spacing2 {
+    letter-spacing: 2px;
+}
+
+.spacing5 {
+    letter-spacing: 5px;
+}
+
+.spacing10 {
+    letter-spacing: 10px;
+}
+
+.spacing-negative {
+    letter-spacing: -2px;
+}
+
+.normal {
+    word-spacing: normal;
+}
+
+.word5 {
+    word-spacing: 5px;
+}
+
+.word10 {
+    word-spacing: 10px;
+}
+
+.word20 {
+    word-spacing: 20px;
+}
+
+.word-negative {
+    word-spacing: -5px;
+}
