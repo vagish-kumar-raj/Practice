@@ -26,7 +26,7 @@ body {
     border-top: 2px solid #FCC801;
     border-left: 5px solid #FCC801;
     border-radius: 10px;
-    text-shadow: 2px 2px 2px #FF7F2A;
+    text-shadow: 2px 2px 1px #FF7F2A;
 }
 
 #btn:hover {
@@ -40,7 +40,6 @@ h1{
     margin-top: 10px;
     display: inline-block;
     padding: 10px 20px;
-    border: px solid #FFEEAA;
     border-top: 2px solid #FCC801;
     border-left: 5px solid #FCC801;
     border-radius: 10px;
@@ -63,4 +62,32 @@ header{
     width: 200px;
     margin: 20px auto;
     display: block;
+}
+a {
+    color: #FF7F2A;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px #FCC801;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    text-align: left;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
 }
