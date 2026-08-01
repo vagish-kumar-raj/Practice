@@ -30,6 +30,14 @@ html, body {
   display: flex;
   flex-direction: row; 
   /* ! Can change this to row(default), column, row-reverse, or column-reverse */
-  justify-content: space-evenly; 
+  justify-content: flex-start; 
   /* ! Can change this to flex-start(default), flex-end, center, space-between, space-around, or space-evenly */
+}
+
+.logout {
+  margin: auto 0 auto auto;
+  /*
+  We can also use:
+  ! margin-left: auto;
+  */
 }
