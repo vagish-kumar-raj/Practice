@@ -1,29 +1,34 @@
 .container > div {
-    padding: 10px;
-    text-align: center;
-    font-size: 2em;
-    color: #ffeead;
-  }
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
 
-  html, body {
-    background-color: #ffeead;
-    margin: 10px;
-  }
+html, body {
+  background-color: #000000;
+  margin: 10px;
+}
   
-  .container > div:nth-child(1) {
-    background-color: #96ceb4;	
-  }
+.container > div:nth-child(1) {
+  background-color: #ff0000;	
+}
   
-  .container > div:nth-child(2) {
-    background-color: #ff6f69;
-  }
+.container > div:nth-child(2) {
+  background-color: #00ff00;
+}
   
-  .container > div:nth-child(3) {
-    background-color: #88d8b0;
-  }
+.container > div:nth-child(3) {
+  background-color: #0000ff;
+}
   
-/* Flexbox styles */
+/*
+* Flexbox styles
+*/
 .container {
-  border: 5px solid #ffcc5c;
+  border: 5px solid #ffffff;
   display: flex;
-  }
+  flex-direction: row; 
+  /* ! Can change this to row(default), column, row-reverse, or column-reverse */
+
+}
