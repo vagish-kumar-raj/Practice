@@ -21,17 +21,17 @@ html, body {
 .container > div:nth-child(3) {
   background-color: #0000ff;
 }
+
+.container > div{
+  width: 300px;
+}
   
 /*
 * Flexbox styles
 */
 .container {
   border: 5px solid #ffffff;
-  height: 500px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  /**  You can also use space-around, space-between, flex-start, flex-end, center */
-  align-items: center;
-  /** You can also use flex-start, flex-end, stretch(default) */
+  flex-direction: row;
+  flex-wrap: wrap;
 }
