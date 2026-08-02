@@ -35,3 +35,21 @@ html, body {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.home{
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100px;
+}
+
+.search{
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: 200px;
+}
+
+.logout{
+  flex-grow: 3;
+  flex-shrink: 3;
+  flex-basis: 300px;
+}
