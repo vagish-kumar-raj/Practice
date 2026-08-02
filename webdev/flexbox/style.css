@@ -27,24 +27,11 @@ html, body {
 */
 .container {
   border: 5px solid #ffffff;
+  height: 500px;
   display: flex;
-  flex-direction: row; 
-  /* ! Can change this to row(default), column, row-reverse, or column-reverse */
-  justify-content: flex-start; 
-  /* ! Can change this to flex-start(default), flex-end, center, space-between, space-around, or space-evenly */
-}
-
-.home {
-  flex: 1; 
-  /* ! Can change this to a number (default is 0) */
-}
-
-.search {
-  flex: 2; 
-  /* ! Can change this to a number (default is 0) */
-}
-
-.logout {
-  flex: 3; 
-  /* ! Can change this to a number (default is 0) */
+  flex-direction: column;
+  justify-content: space-evenly;
+  /**  You can also use space-around, space-between, flex-start, flex-end, center */
+  align-items: center;
+  /** You can also use flex-start, flex-end, stretch(default) */
 }
