@@ -1,7 +1,10 @@
 .container {
   border: 5px solid #ffffff;
   display: flex;
-  flex-direction: row; 
-  /* Can be 
-  ! "flex-direction: column;"*/
+
+  flex-direction: row; /* ! Default */
+  /* * Value can be column*/
+
+  justify-content: flex-start; /* ! Default */
+  /* *Value can be flex-start flex-end center space-around space-between space-evenly */
 }
