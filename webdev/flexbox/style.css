@@ -9,6 +9,8 @@ html,
 body {
   background-color: #999999;
   margin: 10px;
+  height: 80%;
+  
 }
 
 .container > div:nth-child(1) {

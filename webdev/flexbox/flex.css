@@ -1,5 +1,6 @@
 .container {
   border: 5px solid #ffffff;
+  height: 100%;
   display: flex;
 
   flex-direction: row; /* ! Default */
@@ -7,18 +8,24 @@
 
   justify-content: flex-start; /* ! Default */
   /* *Value can be flex-start flex-end center space-around space-between space-evenly */
+
+  align-items: stretch; /* ! Default */
+  /* *Value can be stretch(or normal) flex-start(or start) flex-end(or end) center baseline  */
 }
 
 .home{
   flex: 1;
+  align-self: flex-start;
 }
 
 .search{
   flex: 2;
+  align-self: center;
 }
 
 .logout{
   flex: 4;
+  align-self: flex-end;
 }
 
 
