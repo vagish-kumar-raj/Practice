@@ -9,6 +9,16 @@
   /* *Value can be flex-start flex-end center space-around space-between space-evenly */
 }
 
-.logout{
-  margin-left: auto;
+.home{
+  flex: 1;
 }
+
+.search{
+  flex: 2;
+}
+
+.logout{
+  flex: 4;
+}
+
+
