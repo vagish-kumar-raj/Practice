@@ -11,21 +11,18 @@
 
   align-items: stretch; /* ! Default */
   /* *Value can be stretch(or normal) flex-start(or start) flex-end(or end) center baseline  */
+
+  flex-wrap: wrap;
 }
 
-.home{
+.home {
   flex: 1;
-  align-self: flex-start;
 }
 
-.search{
+.search {
   flex: 2;
-  align-self: center;
 }
 
-.logout{
+.logout {
   flex: 4;
-  align-self: flex-end;
 }
-
-
