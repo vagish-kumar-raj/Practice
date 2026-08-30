@@ -8,3 +8,7 @@
   justify-content: flex-start; /* ! Default */
   /* *Value can be flex-start flex-end center space-around space-between space-evenly */
 }
+
+.logout{
+  margin-left: auto;
+}
