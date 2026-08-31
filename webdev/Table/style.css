@@ -1,0 +1,10 @@
+th{
+  background-color: #a2d1ff;
+  border: 2px #0082ff solid;
+  color: #003a70;
+}
+
+td{
+  background-color: rgb(255, 177, 177);
+  border: 2px rgb(132, 0, 0) solid;
+}
